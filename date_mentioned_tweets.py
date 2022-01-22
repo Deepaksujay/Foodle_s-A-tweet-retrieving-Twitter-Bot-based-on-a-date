@@ -17,10 +17,10 @@ def store_last_seen(FILE_NAME,id):
     file_write.close()
     return None
 
-consumer_key = 'sMU2JD5eKpXROWO2XyrN6TFP0'
-consumer_secret = 'LvqfZGVpMIx9HJDo273ptLYfD0hTSDHTq7wPQp7cyPotfxWpck'
-access_token = '1475020244913586177-SNEmu0oW8XOPX5SbxXwyDyua93IH7M'
-access_token_secret = '6GyvoVx0GqIDirnZLhCbIVdYZDmCSLXbwUNJf3LsO13Ij'
+consumer_key = ''
+consumer_secret = ''
+access_token = ''
+access_token_secret = ''
 
 
 auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
